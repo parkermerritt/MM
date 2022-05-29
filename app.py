@@ -35,7 +35,7 @@ app.layout = html.Div([
                        'margin-top': '20px',
                        'margin-bottom': '0'
                        }),
-        html.Img(src="https://s3-us-west-1.amazonaws.com/plotly-tutorials/logo/new-branding/dash-logo-by-plotly-stripe.png",
+        html.Img(src="./assets/MeshMethodsLogo-v1.png",
                 style={
                     'height': '100px',
                     'float': 'right'
