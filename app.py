@@ -24,25 +24,16 @@ colorscale = cl.scales['9']['qual']['Paired']
 app.layout = html.Div([
     
     html.Div([
-        html.H2('Mesh Methods',
-                style={'display': 'inline',
-                       'float': 'left',
-                       'font-size': '2.66em',
-                       'margin-left': '2em',
-                       'font-weight': 'bolder',
-                       'font-family': 'Product Sans',
-                       'color': "rgba(117, 117, 117, 0.95)",
-                       'margin-top': '40px',
-                       'margin-bottom': '0'
-                       }),
         html.Img(src="./assets/MeshMethodsLogo-v1.png",
                 style={
                     'margin-right': '2em',
-                    'height': '120px',
-                    'float': 'right'
+                    'height': '400px',
+                    'text-align':'center'
                 },
         ),
-    ]),
+        html.H2('Mesh Methods LLC',style={'text-align':'center'}),
+        ],style={'textAlign': 'center'}
+    ),
     
 ])
 
@@ -100,5 +91,5 @@ app.layout = html.Div([
 
 
 if __name__ == '__main__':
-    app.run_server(debug=False)
-    app.run_server(port=5000,host='0.0.0.0',debug=True)
+    #app.run_server(debug=False)
+    app.run_server(port=5000,host='0.0.0.0',debug=False)
