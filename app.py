@@ -112,4 +112,5 @@ def update_graph(tickers):
 
 
 if __name__ == '__main__':
-    app.run_server(debug=True)
+    #app.run_server(debug=True)
+    app.run_server(port=5000,host='0.0.0.0',debug=True)
