@@ -31,7 +31,9 @@ app.layout = html.Div([
                     'text-align':'center'
                 },
         ),
-        html.H2('Mesh Methods LLC',style={'text-align':'center'}),
+        html.H2('Mesh Methods LLC',style={'text-align':'center','font-family': 'Trebuchet MS','font-size':30}),
+        html.H3('contact@meshmethods.com',style={'text-align':'center','font-family': 'Trebuchet MS','font-size':20}),
+
         ],style={'textAlign': 'center'}
     ),
     
