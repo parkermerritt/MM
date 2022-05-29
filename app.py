@@ -11,8 +11,10 @@ import time
 
 app = dash.Dash(
     __name__, 
+    title="Mesh Methods",
     #assets_external_scripts='https://cdn.plot.ly/plotly-finance-1.28.0.min.js'
 )
+app._favicon = ("./assets/favicon.ico")
 server = app.server
 
 #app.scripts.config.serve_locally = False
