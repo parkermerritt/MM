@@ -26,8 +26,8 @@ app.layout = html.Div([
     html.Div([
         html.H2('Finance Explorer',
                 style={'display': 'inline',
-                       'float': 'left',
-                       'font-size': '2.65em',
+                       'float': 'right',
+                       'font-size': '2.66em',
                        'margin-left': '7px',
                        'font-weight': 'bolder',
                        'font-family': 'Product Sans',
