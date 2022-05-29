@@ -15,7 +15,7 @@ app = dash.Dash(
 )
 server = app.server
 
-app.scripts.config.serve_locally = False
+#app.scripts.config.serve_locally = False
 
 colorscale = cl.scales['9']['qual']['Paired']
 
@@ -100,5 +100,5 @@ app.layout = html.Div([
 
 
 if __name__ == '__main__':
-    #app.run_server(debug=True)
+    app.run_server(debug=False)
     app.run_server(port=5000,host='0.0.0.0',debug=True)
